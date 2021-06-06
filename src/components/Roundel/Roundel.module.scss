@@ -1,0 +1,143 @@
+@import '../../scss/variables';
+
+.roundel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  position: relative;
+  cursor: pointer;
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    z-index: -1;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 170px;
+    height: 170px;
+  }
+}
+
+.big {
+  width: 120px;
+  height: 120px;
+
+  @media screen and (min-width: 768px) {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+.gesture {
+  position: absolute;
+  width: 40%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.roundelInner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 75%;
+  height: 75%;
+  background-color: $color__grey;
+  border-radius: 50%;
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: $color__white;
+    border-radius: 50%;
+  }
+}
+
+.scissors {
+  background: $gradient__scissors;
+
+  &::after {
+    background-color: $color__scissors-border-bottom;
+  }
+}
+
+.rock {
+  background: $gradient__rock;
+
+  &::after {
+    background-color: $color__rock-border-bottom;
+  }
+}
+
+.paper {
+  background: $gradient__paper;
+
+  &::after {
+    background-color: $color__paper-border-bottom;
+  }
+}
+
+.lizard {
+  background: $gradient__lizard;
+
+  &::after {
+    background-color: $color__lizard-border-bottom;
+  }
+}
+
+.spock {
+  background: $gradient__spock;
+
+  &::after {
+    background-color: $color__spock-border-bottom;
+  }
+}
+
+.winner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 130%;
+  height: 130%;
+  transform: translate(-50%, -50%);
+  background: rgba($color: #ffffff, $alpha: 0.05);
+  border-radius: 50%;
+  z-index: -1;
+
+  &::before,
+  &::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+  }
+
+  &::before {
+    width: 130%;
+    height: 130%;
+    background: rgba($color: #ffffff, $alpha: 0.03);
+  }
+
+  &::after {
+    width: 160%;
+    height: 160%;
+    background: rgba($color: #ffffff, $alpha: 0.02);
+  }
+}
