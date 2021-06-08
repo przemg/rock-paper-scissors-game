@@ -1,16 +1,18 @@
-## Rock-paper-scissors game (extended version)
+# Rock-paper-scissors game (extended version)
 
 Live URL: [https://rock-paper-scissors-game-react.netlify.app](https://rock-paper-scissors-game-react.netlify.app)
 
-# Frontend Mentor - Frontend Mentor - Rock, Paper, Scissors
+## Technology stack
+  - React
+  - Redux
+  - CSS Modules
+  - React Router
+
+## Preview design
+Design come from [Frontend Mentor](https://frontendmentor.io) website and it is a one of their challenges.
 
 ![Design preview for the Rock, Paper, Scissors coding challenge](./design/desktop-preview.jpg)
 
-## Welcome! 👋
-
-Thanks for checking out my solution for this challenge. :blush:
-
-Check [Frontend Mentor](https://frontendmentor.io) website. Their challenges allow you to improve your skills in a real-life workflow.
 
 ## Lighthouse report
 
