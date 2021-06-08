@@ -11,7 +11,7 @@ Live URL: [https://rock-paper-scissors-game-react.netlify.app](https://rock-pape
 ## Preview design
 Design come from [Frontend Mentor](https://frontendmentor.io) website and it is a one of their challenges.
 
-![Design preview for the Rock, Paper, Scissors coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Rock, Paper, Scissors coding challenge](./design/bonus/desktop-step-1-bonus.jpg)
 
 
 ## Lighthouse report
