@@ -1,4 +1,5 @@
 # Rock-paper-scissors game (extended version)
+:iphone: Website is fully responsive
 
 Live URL: [https://rock-paper-scissors-game-react.netlify.app](https://rock-paper-scissors-game-react.netlify.app)
 
