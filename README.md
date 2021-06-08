@@ -1,3 +1,7 @@
+## Rock-paper-scissors game (extended version)
+
+Live URL: [https://rock-paper-scissors-game-react.netlify.app](https://rock-paper-scissors-game-react.netlify.app)
+
 # Frontend Mentor - Frontend Mentor - Rock, Paper, Scissors
 
 ![Design preview for the Rock, Paper, Scissors coding challenge](./design/desktop-preview.jpg)
