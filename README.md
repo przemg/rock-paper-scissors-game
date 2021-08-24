@@ -36,7 +36,7 @@ Users should be able to:
 ### Built with
 
 - [React](https://reactjs.org/) - JS library
-- CSS Modules
+- SCSS Modules
 - [Redux](https://redux.js.org/) - State Container for JS Apps
 - [React Router](https://reactrouter.com/) - Routing
 
