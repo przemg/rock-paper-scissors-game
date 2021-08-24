@@ -1,20 +1,45 @@
-# Rock-paper-scissors game (extended version)
-:iphone: Website is fully responsive
+# Frontend Mentor - Rock, Paper, Scissors solution (extended version)
 
-Live URL: [https://rock-paper-scissors-game-react.netlify.app](https://rock-paper-scissors-game-react.netlify.app)
+This is a solution to the [Rock, Paper, Scissors challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/rock-paper-scissors-game-pTgwgvgH). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Technology stack
-  - React
-  - Redux
-  - CSS Modules
-  - React Router
+## Table of contents
 
-## Preview design
-Design come from [Frontend Mentor](https://frontendmentor.io) website and it is a one of their challenges.
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+- [Author](#author)
 
-![Design preview for the Rock, Paper, Scissors coding challenge](./design/bonus/desktop-step-1-bonus.jpg)
+## Overview
 
+### The challenge
 
-## Lighthouse report
+Users should be able to:
 
-![Lighthouse report for my solution](./lighthouse-report/lighthouse.JPG)
+- View the optimal layout for the game depending on their device's screen size
+- Play Rock, Paper, Scissors against the computer
+- Maintain the state of the score after refreshing the browser
+- **Bonus**: Play Rock, Paper, Scissors, Lizard, Spock against the computer
+
+### Screenshot
+
+![Solution preview to Rock, Paper, Scissors solution (extended version)](./solution_screens/solution.jpg)
+
+### Links
+
+- Live Site URL: [https://rock-paper-scissors-game-react.netlify.app](https://rock-paper-scissors-game-react.netlify.app)
+
+## My process
+
+### Built with
+
+- [React](https://reactjs.org/) - JS library
+- CSS Modules
+- [Redux](https://redux.js.org/) - State Container for JS Apps
+- [React Router](https://reactrouter.com/) - Routing
+
+## Author
+
+- Frontend Mentor - [@przemg](https://www.frontendmentor.io/profile/przemg)
